@@ -1,4 +1,4 @@
-# 一个带有Node.js接口的todomvc小demo
+# 这是一个用Node.js+Vue.js做的todomvc小demo
 
 ## Build Setup
 
