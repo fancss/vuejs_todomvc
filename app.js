@@ -4,7 +4,7 @@ var fs = require("fs");
 var url = require("url");
 
 app.use(express.static('www'));
-//node写接口，这个是对文件的操作 和对数据库操作不一样 在于它是先读再改再写，套路类似于本地存储
+//node写接口，这个是对文件的操作 和对数据库操作不同 在于它是先读再改再写，套路类似于本地存储
 //查
 app.get("/getAll",function(req,res){
     fs.readFile("./data/todos.json", function(err,data){
